@@ -33,10 +33,23 @@
   }
 }
 
-.copywright {
+.copyright {
   font-size: 1.4rem;
   color: $color-grey-light-2;
   margin: 6rem auto 0;
   text-align: center;
   width: 70%;
+
+  &__link {
+    &:link,
+    &:active {
+      color: $color-grey-light-1;
+      text-decoration: none;
+    }
+    &:hover,
+    &:visited {
+      color: $color-grey-light-1;
+      text-decoration: underline;
+    }
+  }
 }
